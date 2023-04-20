@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    border: 0px;
+    font-family: 'Rokkitt', serif;
+}
+
+body{
+    background-image: linear-gradient(to left bottom, #041e23, #08323e, #16475c, #2d5c7c, #4b709d);
+}
+
+.head{
+    width: 100vw;
+    margin-top: 50px;
+    background-color: darkgrey;
+}
+
+
+
+
+
+
+
+
+.patient-profile-container{
+    background-color:#83886c;
+    height: 300px;
+    width: 650px;
+    display: inline-block;
+    margin: 0 70 0 100px;
+}
+
+.patient-avatar{
+    height: 300px;
+    width: 200px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.patient-avatar>img{
+    height: 200px;
+    margin-top: 45px;
+}
+
+.patient-profile-info{
+    display: inline-block;
+    vertical-align: top;
+    height: 300px;
+    width: 430px;
+    position: relative;
+}
+
+.patient-profile-info>b{
+    display: inline-block;
+    width: 120px;
+}
+
+.patient-logout{
+    position: absolute;
+    right: 50;
+    bottom: 50;
+}
+
+.patient-logout>input{
+    height: 30px;
+    font-size: 17px;
+    width: 55px;
+    border-radius: 3px;
+}
+
+.patient-logout>input:hover{
+    background-color: firebrick;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.doctor-info-container{
+    height: 300px;
+    width: 650px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 0 0 0;
+    vertical-align: top;
+}
+
+.doc-avatar{
+    height: 300px;
+    width: 200px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.doc-avatar>img{
+    height: 200px;
+    margin-top: 45px;
+}
+
+.doctor-profile-info{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 300px;
+    width: 430px;
+}
+
+.doctor-profile-info>b{
+    display: inline-block;
+    width: 120px;
+}
+
+.doctor-logout{
+    position: absolute;
+    right: 50;
+    bottom: 50;
+}
+
+.doctor-logout>input{
+    height: 30px;
+    font-size: 17px;
+    width: 55px;
+    border-radius: 3px;
+}
+
+.doctor-logout>input:hover{
+    background-color: firebrick;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.doctor-info-container{
+    height: 300px;
+    width: 650px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 0 0 0;
+    vertical-align: top;
+}
+
+.doc-avatar{
+    height: 300px;
+    width: 200px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.doc-avatar>img{
+    height: 200px;
+    margin-top: 45px;
+}
+
+.profile-info{
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(73, 73, 112);
+    height: 300px;
+    width: 430px;
+}
+
+.profile-info>b{
+    display: inline-block;
+    width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+.main{
+    width: 100vw;
+    background-color: #67cfd6;
+    margin-top: 50px;
+}
+
+.patient-history-container{
+    width: 600px;
+    background-color: rgb(182, 219, 199);
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 40 0 60px;
+}
+
+.prescription-container{
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.prescription-container *{
+    vertical-align: top;
+}
+
+.button-container{
+    text-align: center;
+    letter-spacing: 80px;
+}
+
+
+.button-container *{
+    height: 50px;
+    width: 150px;
+    vertical-align: top;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+
+
+
+
+#symptoms-container{
+    margin: 15 0 15 0px;
+    display:flex;
+}
+#symptoms-container label{
+    width: 95px;
+    margin:auto 0;
+}
+
+
+#medicine-container div{
+    margin: 15 0 15 0px;
+    display: inline-flex;
+}
+#medicine-container div label{
+    margin:auto 0;
+}
+#medicine-container div input,
+#medicine-container div select,
+#medicine-container div textarea{
+    margin: 0 0 0 10px;
+}
+
+
+#test-container div{
+    margin: 15 0 15 0px;
+    display: flex;
+}
+#test-container div label{
+    width: 45px;
+    margin:auto 0;
+}
+#test-container div input{
+    width: 200px;
+    height: 30px;
+}
+
+
+#advice-container{
+    margin: 15 0 15 0px;
+    display:flex;
+}
+#advice-container label{
+    width: 60px;
+    margin:auto 0;
+}
+

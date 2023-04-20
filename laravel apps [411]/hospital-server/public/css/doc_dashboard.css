@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    border: 0px;
+    font-family: 'Rokkitt', serif;
+}
+
+body{
+    background-image: linear-gradient(to left bottom, #041e23, #08323e, #16475c, #2d5c7c, #4b709d);
+}
+
+.head{
+    height: 300px;
+    width: 100vw;
+    margin-top: 50px;
+    background-color: darkgrey;
+}
+
+
+.appointment-container{
+    background-color:#555694;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 50px;
+    margin: 50 80 0 200px;
+}
+
+.doctor-info-container{
+    height: 300px;
+    width: 650px;
+    background-color:#6f705e;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 0 0 0;
+    vertical-align: top;
+}
+
+
+
+
+.appointment-form>label{
+    font-size:25px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.appointment-form>[id=appointment_token]{
+    height: 30px;
+    width: 200px;
+    margin: 5 5 5 0px;
+}
+.appointment-form>[type=submit]{
+    height: 30px;
+    width: 60px;
+}
+.appointment-form>[type=submit]:hover{
+    color:white;
+    background-color: darkgoldenrod;
+}
+
+
+
+
+
+.doc-avatar{
+    height: 300px;
+    width: 200px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.doc-avatar>img{
+    height: 200px;
+    margin-top: 45px;
+}
+.profile-info{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 300px;
+    width: 430px;
+}
+
+.profile-info>b{
+    display: inline-block;
+    width: 120px;
+}
+
+.doctor-logout{
+    position: absolute;
+    right: 50;
+    bottom: 50;
+}
+
+.doctor-logout>input{
+    height: 30px;
+    font-size: 17px;
+    width: 55px;
+    border-radius: 3px;
+}
+
+.doctor-logout>input:hover{
+    background-color: firebrick;
+    cursor: pointer;
+}

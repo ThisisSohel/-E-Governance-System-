@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    border: 0px;
+    font-family: 'Rokkitt', serif;
+}
+
+body{
+    background-image: linear-gradient(to left bottom, #041e23, #08323e, #16475c, #2d5c7c, #4b709d);
+}
+
+.head{
+    width: 100vw;
+    margin-top: 50px;
+    background-color: darkgrey;
+}
+
+
+.patient-info-container{
+    height: 200px;
+    width: 570px;
+    background-color:#416de7;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 50 100 50 150;
+    vertical-align: top;
+}
+
+.patient-avatar{
+    width: 200px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.patient-avatar>img{
+    width: 200px;
+}
+.patient-profile-info{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 200px;
+    width: 350px;
+}
+
+.patient-profile-info>b{
+    display: inline-block;
+    width: 150px;
+}
+
+.patient-exit{
+    position: absolute;
+    right: 50;
+    bottom: 20;
+}
+
+.patient-exit>input{
+    height: 30px;
+    font-size: 17px;
+    width: 55px;
+    border-radius: 3px;
+}
+
+.patient-exit>input:hover{
+    background-color: firebrick;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.biller-info-container{
+    height: 200px;
+    width: 570px;
+    background-color:#6f705e;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 50 0 0 10;
+    vertical-align: top;
+}
+
+.biller-avatar{
+    width: 200px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.biller-avatar>img{
+    width: 200px;
+}
+.biller-profile-info{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 200px;
+    width: 350px;
+}
+
+.biller-profile-info>b{
+    display: inline-block;
+    width: 150px;
+}
+
+.biller-logout{
+    position: absolute;
+    right: 50;
+    bottom: 20;
+}
+
+.biller-logout>input{
+    height: 30px;
+    font-size: 17px;
+    width: 55px;
+    border-radius: 3px;
+}
+
+.biller-logout>input:hover{
+    background-color: firebrick;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    width: 100vw;
+    background-color: #67cfd6;
+    margin-top: 50px;
+}
+
+.patient-history-container{
+    height: 500px;
+    width: 700px;
+    background-color: rgb(167, 204, 184);
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 40 0 50px;
+}
+
+.test-registration-container{
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.test-registration-container *{
+    vertical-align: top;
+}
+
+.button-container{
+    text-align: center;
+    letter-spacing: 80px;
+}
+
+
+.button-container *{
+    height: 50px;
+    width: 150px;
+    vertical-align: top;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#test-container div{
+    margin-top: 15px;
+    display: inline-flex;
+}
+#test-container div label{
+    width: 45px;
+    margin:auto 0;
+}
+
+#test-container div label[for="reference"]{
+    width: 150px;
+    margin-left: 20px;
+}
+
+#test-container div input{
+    width: 200px;
+    height: 35px;
+}
+
+#form button{
+    margin: 15 10 0 10px;
+    height: 30px;
+    width: 110px;
+}
+
+#form button:hover{
+    cursor: pointer;
+    background-color: #4b709d;
+    color: azure;
+}
+
+#form input[type="submit"]{
+    margin: 15 10 0 10px;
+    height: 30px;
+    width: 60px;
+}
+
+#form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #f73a00;
+    color: rgb(255, 255, 255);
+}
+
+
+

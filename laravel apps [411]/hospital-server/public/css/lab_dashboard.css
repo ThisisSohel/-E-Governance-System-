@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    border: 0px;
+    font-family: 'Rokkitt', serif;
+}
+
+body{
+    background-image: linear-gradient(to left bottom, #041e23, #08323e, #16475c, #2d5c7c, #4b709d);
+}
+
+.head{
+    height: 300px;
+    width: 100vw;
+    margin-top: 50px;
+    background-color: darkgrey;
+}
+
+
+.patient-access-form-container{
+    background-color:#555694;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 50px;
+    margin: 50 150 0 250px;
+}
+
+.biller-info-container{
+    height: 200px;
+    width: 570px;
+    background-color:#6f705e;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 50 0 0 10;
+    vertical-align: top;
+}
+
+#form{
+    position: relative;
+    top: 5px;
+}
+
+#form>input{
+    font-size:20px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin: 0 0 10 0;
+}
+
+#form>[type=submit]{
+    height: 30px;
+    width: 70px;
+    letter-spacing: 0px;
+}
+#form>[type=submit]:hover{
+    color:white;
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+
+
+
+
+
+.biller-avatar{
+    width: 200px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.biller-avatar>img{
+    width: 200px;
+}
+.profile-info{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 200px;
+    width: 350px;
+}
+
+.profile-info>b{
+    display: inline-block;
+    width: 150px;
+}
+
+.biller-logout{
+    position: absolute;
+    right: 50;
+    bottom: 20;
+}
+
+.biller-logout>input{
+    height: 30px;
+    font-size: 17px;
+    width: 55px;
+    border-radius: 3px;
+}
+
+.biller-logout>input:hover{
+    background-color: firebrick;
+    cursor: pointer;
+    color: aliceblue;
+}

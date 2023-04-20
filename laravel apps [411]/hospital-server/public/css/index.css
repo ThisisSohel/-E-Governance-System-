@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to left bottom, #21616f, #007272, #008164, #348d48, #6e941f);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.login-div{
+    height: 250px;
+    width: 400px;
+    background-image: linear-gradient(to right bottom, #56a9b9, #74b1c6, #90bacf, #a9c3d7, #bfccdc);
+    position: absolute;
+    left: 55%;
+    top: 25%;
+    border-radius: 15px;
+}
+
+.form-heading{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 8%;
+}
+
+.input-div{
+    text-align: center;
+}
+
+.input-tag{
+    height: 10%;
+    width: 60%;
+}
+
+.input-div>form>*{
+    margin-bottom: 5%;
+}
+
+.input-div>form> input[type=submit]{
+    height: 10%;
+    width: 15%;
+    right: 90px;
+    position: relative;
+}
+
+.image{
+    position: relative;
+    top: 10%;
+    left: 15%;
+}
+
