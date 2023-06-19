@@ -1,21 +1,22 @@
 https://github.com/ThisisSohel/-E-Governance-System-/assets/97689065/0152cfb3-67a7-4e45-bc75-8ab979cbf994
 # -E-Governance-System-
 
-Project Title: E-Governance System
-Project Overview ： Here we implemented two 
+Project Title: E-Governance System.
+
+Project Overview： Here we implemented two 
 portals one is Hospital Portal another one is Citizen 
 portal. 
 
 In Hospital Portal,
-1. Citizen can explore their previous medical 
-record through state portal.
+1. Citizens can explore their previous medical 
+record through the state portal.
 2. Lab Professionals can store patient report 
-in state portal through medical portal.
-3. Doctors can also store prescription for 
+an in-state portal through the medical portal.
+3. Doctors can also store prescriptions for 
 respective patient through their medical 
-portal and see patients previous medical 
+portal and see patient's previous medical 
 record depending.
-4. Citizen can register in state Portal.
+4. Citizens can register in the state Portal.
 5. Doctors will not be able to see all record 
 accept the concerned one.
 
@@ -24,8 +25,8 @@ In Citizen Portal,
 Database.
 2. Each citizen can change some of their 
 data.
-3. User can get access into their information 
-through state portal.
+3. Users can get access to their information 
+through the state portal.
 
 Technology
 ----------
